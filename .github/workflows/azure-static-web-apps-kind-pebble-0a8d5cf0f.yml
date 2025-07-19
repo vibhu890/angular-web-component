@@ -57,7 +57,7 @@ jobs:
           action: "upload"
           app_location: "/"
           api_location: ""
-          output_location: "/"
+          output_location: "dist/angular-web-component"
           github_id_token: ${{ steps.idtoken.outputs.result }}
           skip_app_build: true
 
